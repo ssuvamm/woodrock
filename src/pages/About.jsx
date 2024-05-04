@@ -9,16 +9,16 @@ const About = () => {
     >
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-3xl">
-          <h1 className="mb-8 text-center text-4xl font-bold text-indigo-600">
+          <h1 className="mb-8 text-center text-4xl font-bold text-indigo-200">
             About Woodrock: <br />
-            <span className="text-gray-800">
+            <span className="text-white">
               Pioneering IT Solutions for Your Success
             </span>
           </h1>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             <div>
-              <p className="mb-6 text-lg leading-relaxed">
-                <span className="font-bold text-indigo-600">
+              <p className="mb-6 text-lg leading-relaxed text-white">
+                <span className="font-bold text-indigo-200">
                   Established in 2014,
                 </span>{" "}
                 Woodrock stands as a pioneering Business Process Outsourcing
@@ -27,7 +27,7 @@ const About = () => {
                 forefront of revolutionizing businesses through innovative
                 technology.
               </p>
-              <p className="mb-6 text-lg leading-relaxed">
+              <p className="mb-6 text-lg leading-relaxed text-white">
                 At Woodrock, our mission is to be the trusted partner that
                 empowers businesses to thrive in the digital era. We are
                 dedicated to delivering innovative, reliable, and scalable
@@ -44,8 +44,8 @@ const About = () => {
             </div>
           </div>
           <div className="mt-8">
-            <p className="mb-6 text-lg leading-relaxed">
-              <span className="font-bold text-indigo-600">
+            <p className="mb-6 text-lg leading-relaxed text-white">
+              <span className="font-bold text-indigo-200">
                 Driven by a commitment to excellence,
               </span>{" "}
               we leverage cutting-edge technology, a global perspective, and a
@@ -54,7 +54,7 @@ const About = () => {
               create lasting value through collaboration, integrity, and
               continuous improvement.
             </p>
-            <p className="mb-6 text-lg leading-relaxed">
+            <p className="mb-6 text-lg leading-relaxed text-white">
               At the heart of our mission is a focus on building enduring
               relationships. We prioritize transparency, professionalism, and
               the highest standards of service to foster trust with our clients,
@@ -62,11 +62,11 @@ const About = () => {
               we embrace diversity, invest in our people, and contribute to the
               communities we serve.
             </p>
-            <p className="text-lg leading-relaxed">
+            <p className="text-lg leading-relaxed text-white">
               Woodrock is not just a service provider; we are a strategically
               dedicated to helping businesses navigate and thrive in an
               ever-evolving business landscape.{" "}
-              <span className="font-bold text-indigo-600">
+              <span className="font-bold text-indigo-200">
                 Our vision is to be the catalyst for your growth, enabling you
                 to achieve your goals and aspirations.
               </span>{" "}

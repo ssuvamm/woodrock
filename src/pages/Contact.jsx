@@ -26,8 +26,8 @@ const Contact = () => {
         className="flex flex-wrap gap-5 p-5 md:flex-nowrap"
       >
         <div className="w-full rounded-lg bg-[#2D3748] p-6 shadow-md md:w-1/2">
-          <h1 className="text-2xl font-bold">Contact Us</h1>
-          <p className="mt-2">
+          <h1 className="text-2xl font-bold text-white">Contact Us</h1>
+          <p className="mt-2 text-white">
             Feel free to contact us and we will get back to you as soon as we
             can.
           </p>
@@ -68,8 +68,8 @@ const Contact = () => {
         </div>
 
         <div className="w-full rounded-lg bg-[#2D3748] p-6 shadow-md md:w-1/2">
-          <h2 className="text-xl font-bold">Contact Info</h2>
-          <h3 className="mt-4 text-lg font-semibold">Addresses</h3>
+          <h2 className="text-xl font-bold text-white">Contact Info</h2>
+          <h3 className="mt-4 text-lg font-semibold text-white">Addresses</h3>
           <div className="mt-4 space-y-6">
             <div className="rounded-lg bg-[#1A1A1A] p-4 text-white">
               <h3 className="text-lg font-semibold">Corporate Office</h3>
