@@ -1,5 +1,7 @@
 import Container from "./container";
 import { Link } from "react-router-dom";
+// import { LazyLoadImage } from "react-lazy-load-image-component";
+import CoreValuesAndConduct from "./CodeOfConduct";
 
 const Hero = () => {
   return (
@@ -42,13 +44,14 @@ const Hero = () => {
           </div>
         </div>
       </Container>
+      <CoreValuesAndConduct />
+
       <Container className="min-w-full">
         <div className="flex flex-col justify-center">
           <div className="text-center text-xl text-white">
             Trusted by <span className="text-indigo-600">25+</span> customers
             nationwide
           </div>
-
           <div className="mt-10 flex flex-wrap justify-center gap-5  sm:flex-nowrap sm:justify-around">
             <div className="flex items-center space-x-5 pt-2  text-white">
               <img className="h-[60px]" src="/Logo/swiggy.svg" alt="" />
