@@ -4,10 +4,11 @@ import SecAndData from "../components/SecAndData";
 const About = () => {
   return (
     <m.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -100 }}
       className="py-12 pt-[8%]"
+      style={{ fontFamily: "Inter,sans-serif" }}
     >
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-4xl">

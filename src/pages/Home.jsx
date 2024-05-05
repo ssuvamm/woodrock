@@ -15,16 +15,14 @@ import { motion as m } from "framer-motion";
 const Home = () => {
   return (
     <m.div
-      animate={{ opacity: 1 }}
-      initial={{ opacity: 0 }}
-      transition={{ duration: 0.5 }}
-      exit={{ opacity: 0 }}
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -100 }}
       key="home"
       id="home"
       className="pt-20"
     >
       <Hero />
-
       <Achievements />
       <GrowthStories />
       <GrowthTimeline />

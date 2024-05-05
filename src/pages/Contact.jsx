@@ -21,8 +21,10 @@ const Contact = () => {
     <>
       <div className="pt-[7%] text-2xl "></div>
       <m.div
-        animate={{ opacity: 1 }}
-        initial={{ opacity: 0 }}
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -100 }}
+        style={{ fontFamily: "Rubik,sans-serif" }}
         className="flex flex-wrap gap-5 p-5 md:flex-nowrap"
       >
         <div className="w-full rounded-lg bg-[#2D3748] p-6 shadow-md md:w-1/2">
