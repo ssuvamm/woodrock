@@ -1,4 +1,5 @@
 import { motion as m } from "framer-motion";
+import OpenPositions from "../components/OpenPositions";
 const Careers = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const Careers = () => {
             <h1 className="text-3xl font-bold text-indigo-200 md:text-5xl">
               Careers
             </h1>
+            <img src="" alt="headline Image" />
             <div className="mx-auto max-w-4xl py-16">
               <h2 className="mb-8 text-center text-3xl font-bold text-indigo-200 md:text-5xl">
                 Life at Woodrock
@@ -83,9 +85,17 @@ const Careers = () => {
                 the tools and resources they need to succeed in their roles.
               </p>
             </div>
-            <h2 className="mb-8 text-center text-3xl font-bold text-indigo-200 md:text-5xl">
-              Open positions
-            </h2>
+          </div>
+        </div>
+        <div>
+          <h3 className="mb-4 mt-8 text-xl font-semibold text-indigo-200">
+            Under construction{" "}
+          </h3>
+          <h2 className="mb-8 text-center text-3xl font-bold text-indigo-200 md:text-5xl">
+            Open positions
+          </h2>
+          <div>
+            <OpenPositions />
           </div>
         </div>
       </m.div>
