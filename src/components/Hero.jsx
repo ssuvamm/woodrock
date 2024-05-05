@@ -1,7 +1,7 @@
 import Container from "./container";
 import { Link } from "react-router-dom";
 // import { LazyLoadImage } from "react-lazy-load-image-component";
-import CoreValuesAndConduct from "./CodeOfConduct";
+import CoreValues from "./CoreValues";
 
 const Hero = () => {
   return (
@@ -44,7 +44,7 @@ const Hero = () => {
           </div>
         </div>
       </Container>
-      <CoreValuesAndConduct />
+      <CoreValues />
 
       <Container className="min-w-full">
         <div className="flex flex-col justify-center">

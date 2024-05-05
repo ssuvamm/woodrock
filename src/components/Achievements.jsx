@@ -32,7 +32,7 @@ const Achievements = () => {
               </div>
               <div className="relative">
                 <img
-                  src="/assets/images/achievements-illustration.svg"
+                  src="https://www.shutterstock.com/shutterstock/photos/2218701737/display_1500/stock-photo-target-icon-on-top-of-wooden-blocks-with-rise-up-arrows-d-bar-graph-chart-steps-on-blue-2218701737.jpg"
                   alt="Achievements Illustration"
                   className="mx-auto"
                 />

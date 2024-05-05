@@ -1,0 +1,38 @@
+const SecAndData = () => {
+  return (
+    <div className="mx-auto max-w-4xl ">
+      <h2 className="mb-8 text-center text-3xl font-bold text-indigo-200">
+        Security & Data Protection
+      </h2>
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+        <div>
+          <h3 className="mb-4 text-xl font-semibold text-indigo-200">
+            Data Handling Procedures
+          </h3>
+          <p className="mb-4 text-white">
+            Employee must be responsible in handling of data throughout its
+            lifecycle within the organization.
+          </p>
+          <h3 className="mb-4 text-xl font-semibold text-indigo-200">
+            Password Protection
+          </h3>
+          <p className="mb-4 text-white">
+            Safeguard your systems and data by ensuring that accounts are
+            protected with strong and secure passwords.
+          </p>
+        </div>
+        <div>
+          <h3 className="mb-4 text-xl font-semibold text-indigo-200">
+            Software Usage Policy
+          </h3>
+          <p className="mb-4 text-white">
+            Employees are prohibited from installing restricted software to
+            prevent security and compatibility issues.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default SecAndData;

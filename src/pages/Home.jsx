@@ -9,7 +9,6 @@ import Cta from "../components/cta";
 import GrowthStories from "../components/growthStories";
 import LeadershipDetails from "../components/LeadershipDetails";
 import GrowthTimeline from "../components/growthTimeline";
-import ScrollToTop from "react-scroll-to-top";
 import Achievements from "../components/Achievements";
 import { motion as m } from "framer-motion";
 

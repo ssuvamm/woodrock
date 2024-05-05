@@ -13,38 +13,20 @@ export default function Footer() {
               {" "}
               <Link
                 to="/"
-                className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
+                className="flex items-center space-x-2 text-2xl font-medium text-white"
               >
                 <img
-                  src="/img/logo.svg"
-                  alt="N"
-                  width="32"
-                  height="32"
+                  src="/Logo/woodrock.png"
+                  alt="Woodrock"
+                  width="100"
+                  height="100"
                   className="w-8"
                 />
                 <span>Woodrock</span>
               </Link>
             </div>
 
-            <div className="mt-4 max-w-md text-gray-500 dark:text-gray-400">
-              Woodrock
-            </div>
-
-            <div className="mt-5">
-              <a
-                href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
-                target="_blank"
-                rel="noopener"
-                className="relative block w-44"
-              >
-                <img
-                  src="/img/vercel.svg"
-                  alt="Woodrock"
-                  width="212"
-                  height="44"
-                />
-              </a>
-            </div>
+            <div className="mt-4 max-w-md text-gray-400">Woodrock</div>
           </div>
 
           <div>
@@ -53,7 +35,7 @@ export default function Footer() {
                 <Link
                   key={index}
                   to="/"
-                  className="dark:focus:bg-trueGray-700 w-full rounded-md px-4 py-2 text-gray-500 hover:text-indigo-500 focus:bg-indigo-100 focus:text-indigo-500 focus:outline-none dark:text-gray-300"
+                  className=" w-full rounded-md px-4 py-2 text-gray-500 hover:text-indigo-500 focus:bg-indigo-100 focus:text-indigo-500 focus:outline-none dark:text-gray-300"
                 >
                   {item}
                 </Link>
@@ -76,27 +58,15 @@ export default function Footer() {
           <div className="">
             <div>Follow us</div>
             <div className=" mt-5 flex space-x-5 text-blue-900 ">
-              <a
-                href="https://twitter.com/web3templates"
-                target="_blank"
-                rel="noopener"
-              >
+              <a href="https://twitter.com/" target="_blank" rel="noopener">
                 <span className="sr-only">Twitter</span>
                 <Twitter />
               </a>
-              <a
-                href="https://facebook.com/web3templates"
-                target="_blank"
-                rel="noopener"
-              >
+              <a href="https://facebook.com/" target="_blank" rel="noopener">
                 <span className="sr-only">Facebook</span>
                 <Facebook />
               </a>
-              <a
-                href="https://instagram.com/web3templates"
-                target="_blank"
-                rel="noopener"
-              >
+              <a href="https://instagram.com/" target="_blank" rel="noopener">
                 <span className="sr-only">Instagram</span>
                 <Instagram />
               </a>

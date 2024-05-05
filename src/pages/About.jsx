@@ -1,4 +1,6 @@
 import { motion as m } from "framer-motion";
+import CodeOfConduct from "../components/CodeOfConduct";
+import SecAndData from "../components/SecAndData";
 const About = () => {
   return (
     <m.div
@@ -8,10 +10,10 @@ const About = () => {
       className="py-12 pt-[8%]"
     >
       <div className="container mx-auto px-4">
-        <div className="mx-auto max-w-3xl">
+        <div className="mx-auto max-w-4xl">
           <h1 className="mb-8 text-center text-4xl font-bold text-indigo-200">
             About Woodrock: <br />
-            <span className="text-white">
+            <span className="text-white ">
               Pioneering IT Solutions for Your Success
             </span>
           </h1>
@@ -74,6 +76,8 @@ const About = () => {
             </p>
           </div>
         </div>
+        <CodeOfConduct />
+        <SecAndData />
       </div>
     </m.div>
   );

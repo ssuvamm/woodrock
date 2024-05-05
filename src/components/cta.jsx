@@ -11,7 +11,7 @@ const Cta = () => {
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl"></p>
         </div>
-        <div className="w-full flex-shrink-0 text-center lg:w-auto">
+        <div className="w-full flex-shrink-0 transform text-center transition duration-300 ease-in-out hover:scale-110 lg:w-auto">
           <Link
             to="/contact"
             rel="noopener"

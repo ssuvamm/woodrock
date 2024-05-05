@@ -9,13 +9,23 @@ const Navbar = () => {
     // { name: "News", href: "/news" },
     { name: "Careers", href: "/careers" },
   ];
+  const navId = document.getElementById("navbar");
+  document.addEventListener("click", function (event) {
+    if (!navId.contains(event.target)) {
+      document.getElementById("toggleNavbar").click();
+    }
+  });
+
   const onClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
+    //click id toggleNavbar
+    document.getElementById("toggleNavbar").click();
+
     // document.getElementById("home").scrollIntoView({ behavior: "smooth" });
   };
 
   return (
-    <div className="fixed top-0 w-full bg-black bg-opacity-60">
+    <div className="fixed top-0 w-full bg-black bg-opacity-60" id="navbar">
       <nav className="container relative mx-auto flex flex-wrap items-center justify-between p-8 lg:justify-between xl:px-0">
         {/* Logo  */}
 
@@ -43,6 +53,7 @@ const Navbar = () => {
 
                 <Disclosure.Button
                   aria-label="Toggle Menu"
+                  id="toggleNavbar"
                   className="ml-auto rounded-md px-2 py-1 text-gray-300 hover:text-indigo-500 focus:bg-indigo-100 focus:text-indigo-500 focus:outline-none lg:hidden"
                 >
                   <svg
@@ -73,7 +84,7 @@ const Navbar = () => {
                         onClick={onClick}
                         key={index}
                         to={item.href}
-                        className="-ml-4 w-full rounded-md px-4 py-2 text-gray-500 hover:text-indigo-500 focus:bg-indigo-100 focus:text-indigo-500 focus:outline-none"
+                        className="-ml-4 w-full rounded-md px-4 py-2 text-white hover:text-indigo-500 focus:bg-indigo-100 focus:text-indigo-500 focus:outline-none"
                       >
                         {item.name}
                       </Link>
