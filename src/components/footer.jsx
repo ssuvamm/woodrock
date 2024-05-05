@@ -2,7 +2,16 @@ import { Link } from "react-router-dom";
 import Container from "./container";
 
 export default function Footer() {
-  const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
+  const navigation = [
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Contact", href: "/contact" },
+    // { name: "News", href: "/news" },
+    { name: "Careers", href: "/careers" },
+  ];
+  const onClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   const legal = ["Terms", "Privacy", "Legal"];
   return (
     <div className="relative">
@@ -33,11 +42,12 @@ export default function Footer() {
             <div className="-ml-3 -mt-2 flex w-full flex-wrap lg:ml-0">
               {navigation.map((item, index) => (
                 <Link
+                  onClick={onClick}
                   key={index}
-                  to="/"
+                  to={item.href}
                   className=" w-full rounded-md px-4 py-2 text-gray-500 hover:text-indigo-500 focus:bg-indigo-100 focus:text-indigo-500 focus:outline-none dark:text-gray-300"
                 >
-                  {item}
+                  {item.name}
                 </Link>
               ))}
             </div>

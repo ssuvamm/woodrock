@@ -6,6 +6,7 @@ import Careers from "./pages/Careers";
 import Navbar from "./components/navbar";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "./components/footer";
+import Error from "./pages/Error";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/careers" element={<Careers />}></Route>
+        <Route path="*" element={<Error />}></Route>
       </Routes>
       <Footer />
       <ScrollToTop
