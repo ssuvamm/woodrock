@@ -87,7 +87,7 @@ const Careers = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="p-4">
           <h3 className="mb-4 mt-8 text-xl font-semibold text-indigo-200">
             Under construction{" "}
           </h3>
