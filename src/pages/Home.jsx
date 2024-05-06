@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <m.div
       initial={{ opacity: 0, y: 100 }}
-      animate={{ opacity: 1, y: 0 }}
+      animate={{ opacity: 1, y: 80 }}
       exit={{ opacity: 0, y: -100 }}
       key="home"
       id="home"
@@ -108,7 +108,7 @@ const Sidebar = () => {
             className="w-full hover:cursor-pointer hover:text-sky-500"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
-            Sidebar
+            Home
           </p>
 
           <p

@@ -19,7 +19,7 @@ const Contact = () => {
   };
   return (
     <>
-      <div className="pt-[7%] text-2xl "></div>
+      <div className="pt-[30%] text-2xl md:pt-[8%] "></div>
       <m.div
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}

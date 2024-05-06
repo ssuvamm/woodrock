@@ -7,7 +7,7 @@ const About = () => {
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -100 }}
-      className="py-12 pt-[8%]"
+      className=" pt-[30%] md:pt-[8%]"
       style={{ fontFamily: "Inter,sans-serif" }}
     >
       <div className="container mx-auto px-4">

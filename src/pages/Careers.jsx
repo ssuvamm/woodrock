@@ -8,8 +8,9 @@ const Careers = () => {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -100 }}
         style={{ fontFamily: "Montserrat,sans-serif" }}
+        className="pt-[30%] md:pt-[8%]"
       >
-        <div className=" m-auto min-h-[100vh] pt-[8%] text-white">
+        <div className=" m-auto min-h-[100vh]  text-white">
           <div className=" flex flex-col items-center justify-center  p-4">
             <h1 className="text-3xl font-bold text-indigo-200 md:text-5xl">
               Careers

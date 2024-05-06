@@ -1,23 +1,7 @@
 import { Disclosure } from "@headlessui/react";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
 
 const Navbar = () => {
-  const [scrollOpacity, setScrollOpacity] = useState(50);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const newOpacity = window.scrollY > 1000 ? 100 : 50;
-      setScrollOpacity(newOpacity);
-    };
-
-    document.addEventListener("scroll", handleScroll);
-
-    return () => {
-      document.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   const navigation = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
@@ -25,17 +9,23 @@ const Navbar = () => {
     // { name: "News", href: "/news" },
     { name: "Careers", href: "/careers" },
   ];
+  const navId = document.getElementById("navbar");
+  document.addEventListener("click", function (event) {
+    if (!navId.contains(event.target)) {
+      document.getElementById("toggleNavbar").click();
+    }
+  });
 
   const onClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
+    //click id toggleNavbar
     document.getElementById("toggleNavbar").click();
+
+    // document.getElementById("home").scrollIntoView({ behavior: "smooth" });
   };
 
   return (
-    <div
-      className={`fixed top-0 z-10 w-full bg-black bg-opacity-${scrollOpacity}`}
-      id="navbar"
-    >
+    <div className="fixed top-0 w-full bg-black bg-opacity-60" id="navbar">
       <nav className="container relative mx-auto flex flex-wrap items-center justify-between p-8 lg:justify-between xl:px-0">
         <Disclosure>
           {({ open }) => (
