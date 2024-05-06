@@ -27,8 +27,6 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 w-full bg-black bg-opacity-60" id="navbar">
       <nav className="container relative mx-auto flex flex-wrap items-center justify-between p-8 lg:justify-between xl:px-0">
-        {/* Logo  */}
-
         <Disclosure>
           {({ open }) => (
             <>
