@@ -18,11 +18,11 @@ const Home = () => {
   return (
     <m.div
       initial={{ opacity: 0, y: 100 }}
-      animate={{ opacity: 1, y: 80 }}
+      animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -100 }}
       key="home"
       id="home"
-      className="pt-20"
+      className="pt-40"
     >
       <Hero />
       <div id="achievements">
@@ -67,7 +67,9 @@ const Home = () => {
       </div>
       <Faq />
       <Cta />
-      <Sidebar />
+      <div className="hidden lg:flex">
+        <Sidebar />
+      </div>
     </m.div>
   );
 };
@@ -95,7 +97,7 @@ const Sidebar = () => {
 
   return (
     <>
-      <div className="hidden lg:flex">
+      <div>
         <div className="fixed bottom-0 left-0 top-0 flex items-center  justify-center p-5 hover:hidden">
           <CgMouse className="h-10 w-10" />
           <span className="relative flex h-3 w-3">
@@ -108,7 +110,7 @@ const Sidebar = () => {
             className="w-full hover:cursor-pointer hover:text-sky-500"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
-            Home
+            Sidebar
           </p>
 
           <p
