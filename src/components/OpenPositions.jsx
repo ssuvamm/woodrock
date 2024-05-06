@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const OpenPositions = () => {
   const [activeBox, setActiveBox] = useState(null);
