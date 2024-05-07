@@ -110,7 +110,7 @@ const Sidebar = () => {
             className="w-full hover:cursor-pointer hover:text-sky-500"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
-            Sidebar
+            Home
           </p>
 
           <p
