@@ -15,13 +15,13 @@ const SectionTitle = (props) => {
       )}
 
       {props.title && (
-        <h2 className="mt-3 max-w-2xl text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight dark:text-white">
+        <h2 className="mt-3 max-w-2xl text-3xl font-bold leading-snug tracking-tight  lg:text-4xl lg:leading-tight ">
           {props.title}
         </h2>
       )}
 
       {props.children && (
-        <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
+        <p className="max-w-2xl py-4 text-lg leading-normal  lg:text-xl xl:text-xl ">
           {props.children}
         </p>
       )}

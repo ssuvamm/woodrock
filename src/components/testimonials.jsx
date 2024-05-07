@@ -9,7 +9,7 @@ const Testimonials = () => {
     <Container>
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="transition duration-300 ease-in-out hover:scale-110 lg:col-span-2 xl:col-auto">
-          <div className="flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 px-14 py-14">
+          <div className="flex h-full w-full flex-col justify-between rounded-2xl bg-sky-300 px-14 py-14">
             <p className="text-2xl leading-normal ">
               Share a real <Mark>testimonial</Mark>
               that hits some of your benefits from one of your popular customer.
@@ -23,7 +23,7 @@ const Testimonials = () => {
           </div>
         </div>
         <div className="transition duration-300 ease-in-out hover:scale-110">
-          <div className="flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 px-14 py-14">
+          <div className="flex h-full w-full flex-col justify-between rounded-2xl bg-sky-300 px-14 py-14">
             <p className="text-2xl leading-normal ">
               Make sure you only pick the <Mark>right sentence</Mark>
               to keep it short and simple.
@@ -37,7 +37,7 @@ const Testimonials = () => {
           </div>
         </div>
         <div className=" transition duration-300 ease-in-out hover:scale-110">
-          <div className="flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 px-14 py-14">
+          <div className="flex h-full w-full flex-col justify-between rounded-2xl bg-sky-300 px-14 py-14">
             <p className="text-2xl leading-normal ">
               This is an <Mark>awesome</Mark> landing page template I&apos;ve
               seen. I would use this for anything.
@@ -69,7 +69,7 @@ function Avatar(props) {
       </div>
       <div>
         <div className="text-lg font-medium">{props.name}</div>
-        <div className="text-gray-600 dark:text-gray-400">{props.title}</div>
+        <div className="">{props.title}</div>
       </div>
     </div>
   );

@@ -10,10 +10,10 @@ const CoreValues = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 md:gap-32">
             <div>
               <ul className="mb-6 list-inside list-disc space-y-4">
-                <li className="flex items-center text-lg text-white">
+                <li className="flex items-center text-lg ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="mr-2 h-6 w-6 rounded-full bg-white text-indigo-600"
+                    className="mr-2 h-6 w-6 rounded-full bg-sky-500 text-indigo-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -27,10 +27,10 @@ const CoreValues = () => {
                   </svg>
                   Customer-Centric Excellence
                 </li>
-                <li className="flex items-center text-lg text-white">
+                <li className="flex items-center text-lg ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="mr-2 h-6 w-6 rounded-full bg-white text-indigo-600"
+                    className="mr-2 h-6 w-6 rounded-full bg-sky-500 text-indigo-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -44,10 +44,10 @@ const CoreValues = () => {
                   </svg>
                   Integrity and Transparency
                 </li>
-                <li className="flex items-center text-lg text-white">
+                <li className="flex items-center text-lg ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="mr-2 h-6 w-6 rounded-full bg-white text-indigo-600"
+                    className="mr-2 h-6 w-6 rounded-full bg-sky-500 text-indigo-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -61,10 +61,10 @@ const CoreValues = () => {
                   </svg>
                   Innovation and Adaptability
                 </li>
-                <li className="flex items-center text-lg text-white">
+                <li className="flex items-center text-lg ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="mr-2 h-6 w-6 rounded-full bg-white text-indigo-600"
+                    className="mr-2 h-6 w-6 rounded-full bg-sky-500 text-indigo-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -78,10 +78,10 @@ const CoreValues = () => {
                   </svg>
                   Collaboration and Teamwork
                 </li>
-                <li className="flex items-center text-lg text-white">
+                <li className="flex items-center text-lg ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="mr-2 h-6 w-6 rounded-full bg-white text-indigo-600"
+                    className="mr-2 h-6 w-6 rounded-full bg-sky-500 text-indigo-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -100,10 +100,10 @@ const CoreValues = () => {
             </div>
             <div>
               <ul className="mb-6 list-inside list-disc space-y-4">
-                <li className="flex items-center text-lg text-white">
+                <li className="flex items-center text-lg ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="mr-2 h-6 w-6 rounded-full bg-white text-indigo-600"
+                    className="mr-2 h-6 w-6 rounded-full bg-sky-500 text-indigo-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -117,10 +117,10 @@ const CoreValues = () => {
                   </svg>
                   Quality and Accountability
                 </li>
-                <li className="flex items-center text-lg text-white">
+                <li className="flex items-center text-lg ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="mr-2 h-6 w-6 rounded-full bg-white text-indigo-600"
+                    className="mr-2 h-6 w-6 rounded-full bg-sky-500 text-indigo-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -134,10 +134,10 @@ const CoreValues = () => {
                   </svg>
                   Global Citizenship
                 </li>
-                <li className="flex items-center text-lg text-white">
+                <li className="flex items-center text-lg ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="mr-2 h-6 w-6 rounded-full bg-white text-indigo-600"
+                    className="mr-2 h-6 w-6 rounded-full bg-sky-500 text-indigo-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -151,10 +151,10 @@ const CoreValues = () => {
                   </svg>
                   Agility and Speed
                 </li>
-                <li className="flex items-center text-lg text-white">
+                <li className="flex items-center text-lg ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="mr-2 h-6 w-6 rounded-full bg-white text-indigo-600"
+                    className="mr-2 h-6 w-6 rounded-full bg-sky-500 text-indigo-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -168,10 +168,10 @@ const CoreValues = () => {
                   </svg>
                   Security and Confidentiality
                 </li>
-                <li className="flex items-center text-lg text-white">
+                <li className="flex items-center text-lg ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="mr-2 h-6 w-6 rounded-full bg-white text-indigo-600"
+                    className="mr-2 h-6 w-6 rounded-full bg-sky-500 text-indigo-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"

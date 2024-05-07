@@ -2,16 +2,16 @@ import React from "react";
 
 const GrowthTimeline = () => {
   return (
-    <div className="bg-[#4A5568]">
+    <div className="">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-4xl">
           <div className="relative">
             <div className="border-l-2 border-indigo-600">
               <div className="transform transition duration-300 ease-in-out hover:scale-110">
                 <div className="mb-6 flex items-center">
-                  <div className="z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-indigo-600 ring-0 ring-white sm:ring-8">
+                  <div className="z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white ring-0 ring-sky-500 sm:ring-8">
                     <svg
-                      className="h-6 w-6 text-white"
+                      className="h-6 w-6 text-indigo-600"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -26,10 +26,10 @@ const GrowthTimeline = () => {
                     </svg>
                   </div>
                   <div className="flex-grow pl-6 sm:pl-8">
-                    <h3 className="mb-1 text-lg font-bold text-[#E8F0FE]">
+                    <h3 className="mb-1 text-lg font-bold ">
                       2014: Woodrock is Established
                     </h3>
-                    <p className="text-base font-medium text-[#E8F0FE]">
+                    <p className="text-base font-medium ">
                       Woodrock is founded as an accomplished support services
                       company, providing customized call center, BPO support,
                       market research services, and application development.
@@ -39,9 +39,9 @@ const GrowthTimeline = () => {
               </div>
               <div className="transform transition duration-300 ease-in-out hover:scale-110">
                 <div className="mb-6 flex items-center">
-                  <div className="z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-indigo-600 ring-0 ring-white sm:ring-8">
+                  <div className="z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white ring-0 ring-sky-500 sm:ring-8">
                     <svg
-                      className="h-6 w-6 text-white"
+                      className="h-6 w-6 text-indigo-600"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -56,10 +56,10 @@ const GrowthTimeline = () => {
                     </svg>
                   </div>
                   <div className="flex-grow pl-6 sm:pl-8">
-                    <h3 className="mb-1 text-lg font-bold text-[#E8F0FE]">
+                    <h3 className="mb-1 text-lg font-bold ">
                       2018: Infrastructure Expansion
                     </h3>
-                    <p className="text-base font-medium text-[#E8F0FE]">
+                    <p className="text-base font-medium ">
                       Woodrock invests in expanding its infrastructure,
                       establishing new facilities and implementing
                       state-of-the-art technologies to enhance its operational
@@ -70,9 +70,9 @@ const GrowthTimeline = () => {
               </div>
               <div className="transform transition duration-300 ease-in-out hover:scale-110">
                 <div className="mb-6 flex items-center">
-                  <div className="z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-indigo-600 ring-0 ring-white sm:ring-8">
+                  <div className="z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white ring-0 ring-sky-500 sm:ring-8">
                     <svg
-                      className="h-6 w-6 text-white"
+                      className="h-6 w-6 text-indigo-600"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -87,10 +87,10 @@ const GrowthTimeline = () => {
                     </svg>
                   </div>
                   <div className="flex-grow pl-6 sm:pl-8">
-                    <h3 className="mb-1 text-lg font-bold text-[#E8F0FE]">
+                    <h3 className="mb-1 text-lg font-bold ">
                       2019: Expansion and Growth
                     </h3>
-                    <p className="text-base font-medium text-[#E8F0FE]">
+                    <p className="text-base font-medium ">
                       Woodrock expands its operations, opening new branches and
                       increasing its workforce to meet the growing demand for
                       its services.
@@ -100,9 +100,9 @@ const GrowthTimeline = () => {
               </div>
               <div className="transform transition duration-300 ease-in-out hover:scale-110">
                 <div className="mb-6 flex items-center">
-                  <div className="z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-indigo-600 ring-0 ring-white sm:ring-8">
+                  <div className="z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white ring-0 ring-sky-500 sm:ring-8">
                     <svg
-                      className="h-6 w-6 text-white"
+                      className="h-6 w-6 text-indigo-600"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -117,10 +117,10 @@ const GrowthTimeline = () => {
                     </svg>
                   </div>
                   <div className="flex-grow pl-6 sm:pl-8">
-                    <h3 className="mb-1 text-lg font-bold text-[#E8F0FE]">
+                    <h3 className="mb-1 text-lg font-bold ">
                       2021: Diversification of Services
                     </h3>
-                    <p className="text-base font-medium text-[#E8F0FE]">
+                    <p className="text-base font-medium ">
                       Woodrock diversifies its service offerings, introducing
                       new lines of business to cater to the diverse needs of its
                       clients.{" "}
@@ -130,9 +130,9 @@ const GrowthTimeline = () => {
               </div>
               <div className="transform transition duration-300 ease-in-out hover:scale-110">
                 <div className="mb-6 flex items-center">
-                  <div className="z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-indigo-600 ring-0 ring-white sm:ring-8">
+                  <div className="z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white ring-0 ring-sky-500 sm:ring-8">
                     <svg
-                      className="h-6 w-6 text-white"
+                      className="h-6 w-6 text-indigo-600"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -147,10 +147,10 @@ const GrowthTimeline = () => {
                     </svg>
                   </div>
                   <div className="flex-grow pl-6 sm:pl-8">
-                    <h3 className="mb-1 text-lg font-bold text-[#E8F0FE]">
+                    <h3 className="mb-1 text-lg font-bold ">
                       2023: Significant Growth
                     </h3>
-                    <p className="text-base font-medium text-[#E8F0FE]">
+                    <p className="text-base font-medium ">
                       By 2023, Woodrock expands its workforce to over 800
                       employees and supports 12+ lines of business,
                       demonstrating its commitment to growth and
@@ -161,9 +161,9 @@ const GrowthTimeline = () => {
               </div>
               <div className="transform transition duration-300 ease-in-out hover:scale-110">
                 <div className="mb-6 flex items-center">
-                  <div className="z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-indigo-600 ring-0 ring-white sm:ring-8">
+                  <div className="z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white ring-0 ring-sky-500 sm:ring-8">
                     <svg
-                      className="h-6 w-6 text-white"
+                      className="h-6 w-6 text-indigo-600"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -178,10 +178,10 @@ const GrowthTimeline = () => {
                     </svg>
                   </div>
                   <div className="flex-grow pl-6 sm:pl-8">
-                    <h3 className="mb-1 text-lg font-bold text-[#E8F0FE]">
+                    <h3 className="mb-1 text-lg font-bold ">
                       2024: Ambitious Growth Plans
                     </h3>
-                    <p className="text-base font-medium text-[#E8F0FE]">
+                    <p className="text-base font-medium ">
                       Woodrock has ambitious plans to further expand its
                       workforce to 2,500+ employees and support 25+ lines of
                       business by the end of 2024, solidifying its position as

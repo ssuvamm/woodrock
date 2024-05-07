@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed top-0 z-10 w-full bg-black bg-opacity-${scrollOpacity}`}
+      className={`fixed top-0 z-10 w-full bg-[#1ab4d8] bg-opacity-${scrollOpacity}`}
       id="navbar"
     >
       <nav className="container relative mx-auto flex flex-wrap items-center justify-between p-8 lg:justify-between xl:px-0">
@@ -42,7 +42,7 @@ const Navbar = () => {
             <>
               <div className="flex w-full flex-wrap items-center justify-between lg:w-auto">
                 <Link to="/" onClick={onClick}>
-                  <span className="flex items-center space-x-2 text-2xl font-medium text-gray-100">
+                  <span className="flex items-center space-x-2 text-2xl font-medium text-gray-800">
                     <span>
                       <img
                         src="/Logo/woodrock.png"
@@ -62,7 +62,7 @@ const Navbar = () => {
                 <Disclosure.Button
                   aria-label="Toggle Menu"
                   id="toggleNavbar"
-                  className="ml-auto rounded-md px-2 py-1 text-gray-300 hover:text-indigo-500 focus:bg-indigo-100 focus:text-indigo-500 focus:outline-none lg:hidden"
+                  className="ml-auto rounded-md px-2 py-1 text-gray-800 hover:text-indigo-500 focus:bg-indigo-100 focus:text-indigo-500 focus:outline-none lg:hidden"
                 >
                   <svg
                     className="h-6 w-6 fill-current"
@@ -92,7 +92,7 @@ const Navbar = () => {
                         onClick={onClick}
                         key={index}
                         to={item.href}
-                        className="-ml-4 w-full rounded-md px-4 py-2 text-white hover:text-indigo-500 focus:bg-indigo-100 focus:text-indigo-500 focus:outline-none"
+                        className="-ml-4 w-full rounded-md px-4 py-2 text-gray-800 hover:text-indigo-500 focus:bg-indigo-100 focus:text-indigo-500 focus:outline-none"
                       >
                         {item.name}
                       </Link>
@@ -112,7 +112,7 @@ const Navbar = () => {
                 <Link
                   onClick={onClick}
                   to={menu.href}
-                  className="inline-block rounded-md px-4 py-2 text-lg font-normal text-gray-200 no-underline hover:text-indigo-500 focus:bg-gray-800 focus:text-indigo-500 focus:outline-none"
+                  className="inline-block rounded-md px-4 py-2 text-lg font-normal text-gray-900 no-underline hover:text-indigo-500 focus:bg-gray-800 focus:text-indigo-500 focus:outline-none"
                 >
                   {menu.name}
                 </Link>

@@ -16,13 +16,13 @@ export default function Footer() {
   return (
     <div className="relative">
       <Container>
-        <div className="dark:border-trueGray-700 mx-auto mt-5 grid max-w-screen-xl grid-cols-1 gap-10 border-t border-gray-100 pt-10 lg:grid-cols-5">
+        <div className=" mx-auto mt-5 grid max-w-screen-xl grid-cols-1 gap-10 border-t border-gray-100 pt-10 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <div>
               {" "}
               <Link
                 to="/"
-                className="flex items-center space-x-2 text-2xl font-medium text-white"
+                className="flex items-center space-x-2 text-2xl font-medium "
               >
                 <img
                   src="/Logo/woodrock.png"
@@ -35,7 +35,7 @@ export default function Footer() {
               </Link>
             </div>
 
-            <div className="mt-4 max-w-md text-gray-400">Woodrock</div>
+            <div className="mt-4 max-w-md ">Woodrock</div>
           </div>
 
           <div>
@@ -45,7 +45,7 @@ export default function Footer() {
                   onClick={onClick}
                   key={index}
                   to={item.href}
-                  className=" w-full rounded-md px-4 py-2 text-gray-500 hover:text-indigo-500 focus:bg-indigo-100 focus:text-indigo-500 focus:outline-none dark:text-gray-300"
+                  className=" w-full rounded-md px-4 py-2  hover:text-indigo-500 focus:bg-indigo-100 focus:text-indigo-500 focus:outline-none "
                 >
                   {item.name}
                 </Link>
@@ -58,7 +58,7 @@ export default function Footer() {
                 <Link
                   key={index}
                   to="/"
-                  className="dark:focus:bg-trueGray-700 w-full rounded-md px-4 py-2 text-gray-500 hover:text-indigo-500 focus:bg-indigo-100 focus:text-indigo-500 focus:outline-none dark:text-gray-300"
+                  className=" w-full rounded-md px-4 py-2  hover:text-indigo-500 focus:bg-indigo-100 focus:text-indigo-500 focus:outline-none "
                 >
                   {item}
                 </Link>

@@ -9,10 +9,10 @@ const Hero = () => {
       <Container className="flex flex-wrap md:flex-nowrap">
         <div className="flex w-full items-center justify-center md:w-1/2">
           <div className="mb-8 max-w-2xl">
-            <h1 className="text-4xl font-bold leading-snug tracking-tight text-white md:text-4xl md:leading-tight lg:text-6xl lg:leading-tight">
+            <h1 className="text-4xl font-bold leading-snug tracking-tight  md:text-4xl md:leading-tight lg:text-6xl lg:leading-tight">
               WOODROCK is a trusted and reliable partner.
             </h1>
-            <p className="py-5 text-xl leading-normal text-white md:text-xl lg:text-2xl">
+            <p className="py-5 text-xl leading-normal  md:text-xl lg:text-2xl">
               We are singularly dedicated to your success. As a client, you can
               expect top notch professionalism and an unwavering commitment to
               your satisfaction.
@@ -48,28 +48,28 @@ const Hero = () => {
 
       <Container className="min-w-full">
         <div className="flex flex-col justify-center">
-          <div className="text-center text-xl text-white">
+          <div className="text-center text-xl ">
             Trusted by <span className="text-indigo-600">25+</span> customers
             nationwide
           </div>
           <div className="mt-10 flex flex-wrap justify-center gap-5  sm:flex-nowrap sm:justify-around">
-            <div className="flex items-center space-x-5 pt-2  text-white">
+            <div className="flex items-center space-x-5 pt-2  ">
               <img className="h-[60px]" src="/Logo/swiggy.svg" alt="" />
               <p>Swiggy</p>
             </div>
-            <div className="flex items-center text-white ">
+            <div className="flex items-center  ">
               <img className="" src="/Logo/timesnow.svg" alt="" />
             </div>
-            <div className="flex items-center text-white ">
+            <div className="flex items-center  ">
               <img src="/Logo/lic.png" alt="" />
             </div>
-            <div className="flex items-center text-white ">
+            <div className="flex items-center  ">
               <img className="h-[60px]" src="/Logo/abp.png" alt="" />
             </div>
-            <div className="flex items-center text-white ">
+            <div className="flex items-center  ">
               <img className="h-[60px]" src="/Logo/zomato.svg" alt="" />
             </div>
-            <div className="flex items-center text-white ">
+            <div className="flex items-center  ">
               <img
                 className="h-[60px]"
                 src="/Logo/Shopperstop.svg"
