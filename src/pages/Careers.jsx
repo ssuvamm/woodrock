@@ -10,14 +10,14 @@ const Careers = () => {
         style={{ fontFamily: "Montserrat,sans-serif" }}
         className="pt-[30%] md:pt-[8%]"
       >
-        <div className=" m-auto min-h-[100vh]  text-white">
+        <div className=" m-auto min-h-[100vh]  ">
           <div className=" flex flex-col items-center justify-center  p-4">
-            <h1 className="text-3xl font-bold text-indigo-200 md:text-5xl">
+            <h1 className="text-3xl font-bold text-indigo-800 md:text-5xl">
               Careers
             </h1>
             <img src="" alt="headline Image" />
             <div className="mx-auto max-w-4xl py-16">
-              <h2 className="mb-8 text-center text-3xl font-bold text-indigo-200 md:text-5xl">
+              <h2 className="mb-8 text-center text-3xl font-bold text-indigo-800 md:text-5xl">
                 Life at Woodrock
               </h2>
               <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
@@ -52,7 +52,7 @@ const Careers = () => {
                 </div>
               </div>
 
-              <h3 className="mb-4 mt-8 text-xl font-semibold text-indigo-200">
+              <h3 className="mb-4 mt-8 text-xl font-semibold text-indigo-800">
                 Benefits and Perks
               </h3>
               <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
@@ -69,7 +69,7 @@ const Careers = () => {
                 </div>
               </div>
 
-              <h3 className="mb-4 mt-8 text-xl font-semibold text-indigo-200">
+              <h3 className="mb-4 mt-8 text-xl font-semibold text-indigo-800">
                 Expectations and Growth
               </h3>
               <p className="mb-4">
@@ -89,10 +89,10 @@ const Careers = () => {
           </div>
         </div>
         <div className="p-4">
-          <h3 className="mb-4 mt-8 text-xl font-semibold text-indigo-200">
+          <h3 className="mb-4 mt-8 text-xl font-semibold text-indigo-800">
             Under construction{" "}
           </h3>
-          <h2 className="mb-8 text-center text-3xl font-bold text-indigo-200 md:text-5xl">
+          <h2 className="mb-8 text-center text-3xl font-bold text-indigo-800 md:text-5xl">
             Open positions
           </h2>
           <div>

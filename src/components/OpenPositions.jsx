@@ -22,8 +22,8 @@ const OpenPositions = () => {
             key={boxName}
             className={`mb-4 w-full cursor-pointer rounded-lg px-6 py-4 transition-all duration-300 sm:mb-0 sm:mr-4 sm:w-auto ${
               activeBox === boxName
-                ? "bg-gray-200 text-gray-800"
-                : "bg-gray-100 text-gray-600 hover:bg-gray-200 hover:text-gray-800"
+                ? "bg-sky-200 text-sky-800"
+                : "bg-sky-100 text-sky-600 hover:bg-sky-200 hover:text-sky-800"
             }`}
             onClick={() => handleBoxClick(boxName)}
           >
@@ -32,7 +32,7 @@ const OpenPositions = () => {
         ))}
       </div>
       {activeBox && (
-        <div className="rounded-lg bg-gray-100 p-6">
+        <div className="rounded-lg bg-sky-100 p-6">
           <h3 className="mb-4 text-xl font-semibold">{activeBox} Positions</h3>
           <ul className="list-disc pl-4">
             {positions[activeBox].map((position, index) => (
