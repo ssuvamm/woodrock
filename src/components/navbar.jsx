@@ -30,6 +30,9 @@ const Navbar = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
     document.getElementById("toggleNavbar").click();
   };
+  const onClickLogo = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <div
@@ -41,7 +44,7 @@ const Navbar = () => {
           {({ open }) => (
             <>
               <div className="flex w-full flex-wrap items-center justify-between lg:w-auto">
-                <Link to="/" onClick={onClick}>
+                <Link to="/" onClick={onClickLogo}>
                   <span className="flex items-center space-x-2 text-2xl font-medium text-gray-800">
                     <span>
                       <img
