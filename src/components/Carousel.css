@@ -1,0 +1,17 @@
+.carousel {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-img {
+    height: 50px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    transition: transform 0.3s;
+}
+
+.carousel-img:hover,
+.carousel-img:focus {
+    transform: scale(1.1);
+}

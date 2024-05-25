@@ -2,6 +2,7 @@ import Container from "./container";
 import { Link } from "react-router-dom";
 // import { LazyLoadImage } from "react-lazy-load-image-component";
 import CoreValues from "./CoreValues";
+import Carousel from "./Carousel";
 
 const Hero = () => {
   return (
@@ -52,31 +53,7 @@ const Hero = () => {
             Trusted by <span className="text-indigo-600">25+</span> customers
             nationwide
           </div>
-          <div className="mt-10 flex flex-wrap justify-center gap-5  sm:flex-nowrap sm:justify-around">
-            <div className="flex items-center space-x-5 pt-2  ">
-              <img className="h-[60px]" src="/Logo/swiggy.svg" alt="" />
-              <p>Swiggy</p>
-            </div>
-            <div className="flex items-center  ">
-              <img className="" src="/Logo/timesnow.svg" alt="" />
-            </div>
-            <div className="flex items-center  ">
-              <img src="/Logo/lic.png" alt="" />
-            </div>
-            <div className="flex items-center  ">
-              <img className="h-[60px]" src="/Logo/abp.png" alt="" />
-            </div>
-            <div className="flex items-center  ">
-              <img className="h-[60px]" src="/Logo/zomato.svg" alt="" />
-            </div>
-            <div className="flex items-center  ">
-              <img
-                className="h-[60px]"
-                src="/Logo/Shopperstop.svg"
-                alt="shopperstop"
-              />
-            </div>
-          </div>
+          <Carousel />
         </div>
       </Container>
     </>

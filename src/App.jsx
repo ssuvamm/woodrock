@@ -26,7 +26,7 @@ function App() {
         top={720}
         component={
           <svg
-            className=""
+            className="animate-bounce"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -34,14 +34,14 @@ function App() {
           >
             <path
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="m16 17-4-4-4 4m8-6-4-4-4 4"
             />
           </svg>
         }
-        className=" animate-bounce rounded-lg bg-white text-[#1ab4d8] hover:animate-none hover:bg-gray-200"
+        className=" rounded-lg bg-white text-[#1ab4d8] hover:animate-none hover:bg-gray-200"
       />
     </>
   );
