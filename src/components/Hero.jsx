@@ -53,9 +53,11 @@ const Hero = () => {
             Trusted by <span className="text-indigo-600">25+</span> customers
             nationwide
           </div>
-          <Carousel />
         </div>
       </Container>
+      <div className="min-w-full px-0">
+        <Carousel />
+      </div>
     </>
   );
 };

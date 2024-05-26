@@ -21,6 +21,7 @@ const logos = [
   "karagiri.png",
   "dennis lingo.jpeg",
   "priyaasi.jpeg",
+  "ono.jpg",
 ];
 
 const Carousel = () => {
@@ -66,7 +67,7 @@ const Carousel = () => {
         <img
           key={index}
           src={`/Logo/${logo}`}
-          alt={`Logo ${index + 1}`}
+          alt={`${logo}`}
           className="carousel-img inline-block px-5 py-1"
         />
       ))}
