@@ -1,3 +1,5 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
 const Achievements = () => {
   return (
     <div>
@@ -31,11 +33,12 @@ const Achievements = () => {
                 </p>
               </div>
               <div className="relative">
-                <img
-                  src="https://www.shutterstock.com/shutterstock/photos/2218701737/display_1500/stock-photo-target-icon-on-top-of-wooden-blocks-with-rise-up-arrows-d-bar-graph-chart-steps-on-blue-2218701737.jpg"
+                <LazyLoadImage
+                  src="/img/achievements.jpg"
                   alt="Achievements Illustration"
                   className="mx-auto"
                 />
+
                 <div className="absolute bottom-0 left-0 right-0 mx-auto flex h-32 w-32 items-center justify-center rounded-full bg-indigo-600">
                   <p className="text-4xl font-bold ">80%</p>
                 </div>

@@ -1,4 +1,6 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
 
 const GrowthStories = () => {
   return (
@@ -10,33 +12,31 @@ const GrowthStories = () => {
           </h2>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             <div>
-              <h3 className="mb-4 text-2xl font-bold ">
+              <h3 className="mb-3 text-2xl font-bold ">
                 From Humble Beginnings to Industry Leaders
               </h3>
-              <p className="mb-6 text-lg leading-relaxed ">
-                Established in 2014, Woodrock embarked on a mission to
-                revolutionize the Business Process Outsourcing (BPO) landscape.
-                What began as a small startup has blossomed into an industry
-                leader, driven by a relentless pursuit of excellence and a
-                commitment to delivering cutting-edge solutions.
+              <p className="mb-3 text-lg leading-relaxed">
+                Established in 2014, Woodrock began as a small startup with a
+                mission to revolutionize Business Process Outsourcing (BPO). It
+                has since grown into an industry leader, driven by excellence
+                and innovative solutions.
               </p>
-              <p className="mb-6 text-lg leading-relaxed ">
-                Over the years, Woodrock has consistently exceeded expectations,
-                expanding its global footprint and forging lasting partnerships
-                with businesses across diverse industries. Our growth trajectory
-                is a testament to our unwavering dedication to customer
+              <p className="mb-3 text-lg leading-relaxed ">
+                Over the years, Woodrock has exceeded expectations, expanded
+                globally, and formed lasting partnerships across various
+                industries. Our growth reflects our dedication to customer
                 satisfaction, innovation, and operational excellence.
               </p>
             </div>
             <div>
-              <img
-                src="/assets/images/growth-illustration.svg"
-                alt="Growth Illustration"
-                className="mx-auto"
+              <LazyLoadImage
+                src="/img/growthstory.jpg"
+                alt="Growth Story"
+                effect="opacity"
               />
             </div>
           </div>
-          <div className="mt-8">
+          <div className="mt-1">
             <p className="mb-6 text-lg leading-relaxed ">
               As we look towards the future, Woodrock remains steadfast in its
               mission to empower businesses with reliable, scalable, and

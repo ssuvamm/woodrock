@@ -7,7 +7,7 @@ const logos = [
   "lic.svg",
   "swiggy.svg",
   "pebble.png",
-  "timesnow.svg",
+  "timesnow.jpeg",
   "indiatoday.png",
   "zomato.svg",
   "mensxp.jpeg",
@@ -16,12 +16,12 @@ const logos = [
   "aryans.png",
   "starpowerz.png",
   "logiqids.png",
-  "mensa.svg",
+  "cvoter.webp",
   "anubhutee.png",
   "karagiri.png",
   "dennis lingo.jpeg",
   "priyaasi.jpeg",
-  "ono.jpg",
+  "myfitness.png",
 ];
 
 const Carousel = () => {
@@ -68,7 +68,7 @@ const Carousel = () => {
           key={index}
           src={`/Logo/${logo}`}
           alt={`${logo}`}
-          className="carousel-img inline-block px-5 py-1"
+          className="carousel-img inline-block w-1/5 px-5 py-1"
         />
       ))}
     </div>

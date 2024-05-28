@@ -1,6 +1,15 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
 const CodeOfConduct = () => {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16">
+      <div className="mb-8 flex justify-center">
+        <LazyLoadImage
+          src="/img/CodeOfConduct.jpg"
+          alt="About Illustration"
+          effect="opacity"
+        />
+      </div>
       <h2 className="mb-8 text-center text-3xl font-bold text-indigo-800">
         Code of Conduct
       </h2>

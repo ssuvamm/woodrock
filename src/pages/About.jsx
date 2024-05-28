@@ -1,6 +1,8 @@
 import { motion as m } from "framer-motion";
 import CodeOfConduct from "../components/CodeOfConduct";
 import SecAndData from "../components/SecAndData";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
 const About = () => {
   return (
     <m.div
@@ -37,10 +39,10 @@ const About = () => {
               </p>
             </div>
             <div>
-              <img
-                src="/assets/images/about-illustration.svg"
+              <LazyLoadImage
+                src="/img/about.png"
                 alt="About Illustration"
-                className="mx-auto"
+                effect="opacity"
               />
             </div>
           </div>

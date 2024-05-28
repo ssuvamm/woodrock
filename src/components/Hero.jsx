@@ -1,8 +1,9 @@
 import Container from "./container";
 import { Link } from "react-router-dom";
-// import { LazyLoadImage } from "react-lazy-load-image-component";
 import CoreValues from "./CoreValues";
 import Carousel from "./Carousel";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
 
 const Hero = () => {
   return (
@@ -31,16 +32,11 @@ const Hero = () => {
         </div>
         <div className="flex w-full items-center justify-center md:w-1/2">
           <div className="">
-            <img
-              src="placeholder.png"
-              width="300"
-              height="300"
-              className={
-                "h-full w-full object-cover md:h-auto md:max-h-[300px] md:w-auto md:max-w-[300px] md:rounded-md lg:max-h-[617px] lg:max-w-[616px]"
-              }
+            <LazyLoadImage
+              src="/img/hero.jpg"
+              className="h-full w-full object-cover md:h-auto md:max-h-[300px] md:w-auto md:max-w-[300px] md:rounded-md lg:max-h-[617px] lg:max-w-[616px]"
               alt="Hero Illustration"
-              loading="eager"
-              placeholder="blur"
+              effect="opacity"
             />
           </div>
         </div>
