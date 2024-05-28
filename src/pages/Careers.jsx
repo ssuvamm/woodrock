@@ -104,9 +104,6 @@ const Careers = () => {
           </div>
         </div>
         <div className="p-4">
-          <h3 className="mb-4 mt-8 text-xl font-semibold text-indigo-800">
-            Under construction{" "}
-          </h3>
           <h2 className="mb-8 text-center text-3xl font-bold text-indigo-800 md:text-5xl">
             Open positions
           </h2>
