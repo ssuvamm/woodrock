@@ -115,6 +115,74 @@
     "Contact": "Kathakali@ 9836272131 or kathakali.rahman@woodrockgroup.in",
     "Salary": "Up to 3lpa"
   },
+  "Assistant Manager": {
+    "Role": "Assistant Manager",
+    "Location": "Kolkata",
+    "Responsibilities": [
+      "Engage and support staff to achieve all KPI’s through effective coaching and performance management",
+      "Develop career progression through internal development programs",
+      "Ensure successful delivery of any project, programme, or activity by engaging with stakeholders"
+    ],
+    "Analytical Skills": [
+      "Practice due diligence when interpreting and reporting data",
+      "Improve team performance and processes through insights",
+      "Support the objective of a customer-centric environment"
+    ],
+    "Candidate Profile": [
+      "Class 12 pass & Graduation preferred",
+      "More than 3 years’ experience working within the BPO sector",
+      "More than 1 years’ experience working in an Assistant Manager role in the BPO sector",
+      "Sound working knowledge of Microsoft packages (Word, Excel, PowerPoint & Outlook)",
+      "Management skills",
+      "Good understanding of the BPO industry",
+      "Communication and written skills",
+      "Problem solving",
+      "Analytical thinking",
+      "Time management"
+    ],
+    "Salary": "up to 3.6lpa",
+    "Immediate Joiners Preferred": true,
+    "Contact": "Kathakali@ 9836272131 or kathakali.rahman@woodrockgroup.in"
+  },
+  "Operations Manager": {
+    "Role": "Operations Manager",
+    "Location": "Kolkata",
+    "Responsibilities": [
+      "End-to-end delivery and client interactions for the project",
+      "Ownership of all contractual qualitative deliverables across multiple programs",
+      "Quality delivery of the process, working with Program Management, Operation, Training, HR, and WFM",
+      "Identifying process issues and taking corrective action",
+      "Handling client interaction",
+      "Excellent communication skills",
+      "Problem-solving capabilities and lateral thinking skills",
+      "Monitoring daily productivity against Service Level standards",
+      "Perform regular audit checks on client-defined compliance requirements",
+      "Analyze and generate reports for team performance",
+      "Excellent presentation skills",
+      "Develop a continuous learning process for the team",
+      "Review/audit transactions performed by the team",
+      "Supervise and support team members",
+      "Conduct Regular Performance Reviews for continuous improvements",
+      "Resource management and attrition control"
+    ],
+    "Candidate Profile": [
+      "Class 12 pass & Graduation preferred",
+      "More than 5 years’ experience working within the BPO sector",
+      "More than 1 years’ experience working in an operations manager role in the BPO sector",
+      "Sound working knowledge of Microsoft packages (Word, Excel, PowerPoint & Outlook)",
+      "Management skills",
+      "Good understanding of the BPO industry",
+      "Communication and written skills",
+      "Problem solving"
+    ],
+    "Analytical Skills": [
+      "Practice due diligence when interpreting and reporting data",
+      "Improve team performance and processes through insights",
+      "Support the objective of a customer-centric environment"
+    ],
+    "Salary": "up to 5.4lpa",
+    "Immediate Joiners Preferred": true
+  },
   "Windows Server Administrator": {
     "Role": "Windows Server Administrator",
     "Location": "Kolkata",

@@ -9,7 +9,7 @@ const OpenPositions = () => {
   };
 
   const positions = {
-    Operations: ["Team Leader"],
+    Operations: ["Team Leader", "Operations Manager", "Assistant Manager"],
     Quality: ["Quality Assistant Manager", "Quality Analyst"],
     CSE: ["Customer Support Associate"],
     IT: ["Windows Server Administrator"],
@@ -144,10 +144,15 @@ const OpenPositions = () => {
                     </div>
                   )}
                   {jobDescriptions[position].Contact && (
-                    <p className="mt-2">
-                      <strong>Contact:</strong>{" "}
-                      {jobDescriptions[position].Contact}
-                    </p>
+                    <a
+                      href="mailto:kathakali.rahman@woodrockgroup.in"
+                      target="_blank"
+                    >
+                      <p className="mt-2">
+                        <strong>Contact:</strong>{" "}
+                        {jobDescriptions[position].Contact}
+                      </p>
+                    </a>
                   )}
                   {jobDescriptions[position].Salary && (
                     <p className="mt-2">

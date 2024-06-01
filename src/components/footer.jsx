@@ -22,20 +22,17 @@ export default function Footer() {
               {" "}
               <Link
                 to="/"
-                className="flex items-center space-x-2 text-2xl font-medium "
+                className="flex items-center space-x-2 text-xl font-medium "
               >
-                <img
-                  src="/Logo/woodrock.png"
-                  alt="Woodrock"
-                  width="100"
-                  height="100"
-                  className="w-8"
-                />
-                <span>Woodrock</span>
+                <img src="/Logo/woodrock.png" alt="Woodrock" className="w-12" />
+                <span>
+                  Woodrock <br />
+                  Group
+                </span>
               </Link>
             </div>
 
-            <div className="mt-4 max-w-md ">Woodrock</div>
+            {/* <div className="mt-4 max-w-md ">Woodrock</div> */}
           </div>
 
           <div>

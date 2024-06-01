@@ -54,6 +54,27 @@ const faqdata = [
     answer:
       "Woodrock has a robust quality assurance (QA) program in place to monitor and evaluate customer interactions, adherence to protocols, and the overall customer experience. We also encourage continuous learning and professional development for our employees, ensuring they stay up-to-date with industry trends and best practices. Regular feedback loops and training sessions empower our teams to consistently meet and exceed quality benchmarks.",
   },
+  {
+    question: "How does Woodrock  ensure quality in outsourcing services?",
+    answer:
+      "Quality is at the core of everything we do at Woodrock . We have stringent quality assurance processes in place to ensure accuracy, efficiency, and compliance with industry standards. Our team is dedicated to delivering excellence in every aspect of our services.",
+  },
+  {
+    question:
+      "Can I customize outsourcing solutions to fit my business requirements?",
+    answer:
+      "Absolutely! We understand that every business is unique. That's why we offer customizable outsourcing solutions tailored to your specific needs and objectives. Our team will work closely with you to ensure we meet your expectations.",
+  },
+  {
+    question: "How can outsourcing with woodrock benefit my business?",
+    answer:
+      "Outsourcing with woodrock can help your business reduce costs, improve efficiency, access specialized expertise, and focus on core competencies. It also allows for scalability and flexibility to meet changing business needs.",
+  },
+  {
+    question: "How can I contact Woddrock for further inquiries?",
+    answer:
+      "You can reach out to our team through our website's contact form or by calling us directly at +91 9831098538. We're here to assist you and answer any questions you may have about our outsourcing services.",
+  },
 ];
 
 export default Faq;

@@ -10,10 +10,16 @@ const Hero = () => {
     <>
       <Container className="flex flex-wrap md:flex-nowrap">
         <div className="flex w-full items-center justify-center md:w-1/2">
+          {/* <div className="absolute h-[187px] w-[200px] translate-x-[-205%] translate-y-[-63%] bg-[#1b1b3f]"></div> */}
           <div className="mb-8 max-w-2xl">
-            <h1 className="text-4xl font-bold leading-snug tracking-tight  md:text-4xl md:leading-tight lg:text-6xl lg:leading-tight">
-              WOODROCK is a trusted and reliable partner.
-            </h1>
+            <div className="  bg-[url('/Untitled.png')] pl-3 text-white md:bg-cover">
+              <h1 className=" text-4xl font-bold leading-snug tracking-tight  md:text-4xl md:leading-tight lg:text-6xl lg:leading-tight">
+                WOODROCK Group
+              </h1>
+              <h2 className="py-5 text-xl leading-normal  md:text-xl lg:text-3xl">
+                Anticipating Your Needs Exceeding Your Expectations
+              </h2>
+            </div>
             <p className="py-5 text-xl leading-normal  md:text-xl lg:text-2xl">
               We are singularly dedicated to your success. As a client, you can
               expect top notch professionalism and an unwavering commitment to

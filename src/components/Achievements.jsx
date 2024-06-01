@@ -39,9 +39,9 @@ const Achievements = () => {
                   className="mx-auto"
                 />
 
-                <div className="absolute bottom-0 left-0 right-0 mx-auto flex h-32 w-32 items-center justify-center rounded-full bg-indigo-600">
+                {/* <div className="absolute bottom-0 left-0 right-0 mx-auto flex h-32 w-32 items-center justify-center rounded-full bg-indigo-600">
                   <p className="text-4xl font-bold ">80%</p>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="mt-8">

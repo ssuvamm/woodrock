@@ -1,3 +1,5 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
 const LeadershipDetails = () => {
   return (
     <div>
@@ -15,19 +17,39 @@ const LeadershipDetails = () => {
           </p>
           <div className="grid grid-cols-1 gap-8 md:flex md:justify-center md:gap-12">
             <div>
+              <div className="flex  justify-center rounded-full">
+                <img
+                  src="/leaders/Navneet Agrwal.webp"
+                  alt="Navneet Agarwal"
+                  className="h-32 w-32"
+                />
+              </div>
               <h3 className="mb-2 text-xl font-bold ">Navneet Agarwal</h3>
               <p className="mb-4  ">COO of Woodrock Group</p>
-              <p className="">navneet@woodrockgroup.in</p>
+              <a href="mailto:navneet@woodrockgroup.in">
+                <p className="">navneet@woodrockgroup.in</p>
+              </a>
             </div>
             <div>
               <h3 className="mb-2 text-xl font-bold ">Yogesh Mishra</h3>
               <p className="mb-4 ">CTO of Woodrock Group</p>
-              <p className="">yogesh@woodrockgroup.in</p>
+              <a href="mailto:yogesh@woodrockgroup.in">
+                <p className="">yogesh@woodrockgroup.in</p>
+              </a>
             </div>
             <div>
+              <div className="flex  justify-center rounded-full">
+                <img
+                  src="/leaders/Pragya Mishra.webp"
+                  alt="Pragya Mishra"
+                  className="h-32 w-32"
+                />
+              </div>
               <h3 className="mb-2 text-xl font-bold ">Pragya Mishra</h3>
               <p className="mb-4 ">CMO of Woodrock Group</p>
-              <p className="">pragyamishra@woodrockgroup.in</p>
+              <a href="mailto:pragyamishra@woodrockgroup.in">
+                <p className="">pragyamishra@woodrockgroup.in</p>
+              </a>
             </div>
           </div>
         </div>

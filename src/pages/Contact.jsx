@@ -27,7 +27,7 @@ const Contact = () => {
         style={{ fontFamily: "Rubik,sans-serif" }}
         className="flex flex-wrap gap-5 p-5 md:flex-nowrap"
       >
-        <div className="w-full rounded-lg bg-sky-600 p-6 shadow-md md:w-1/2">
+        <div className="w-full rounded-lg bg-sky-500 p-6 shadow-md md:w-1/2">
           <h1 className="text-2xl font-bold ">Contact Us</h1>
           <p className="mt-2 ">
             Feel free to contact us and we will get back to you as soon as we
@@ -62,14 +62,36 @@ const Contact = () => {
             ></textarea>
             <button
               type="submit"
-              className="rounded-md bg-green-500 py-2 font-semibold  hover:bg-green-600"
+              className="rounded-md bg-[#1b1b3f] py-2 font-semibold text-white  hover:bg-green-600"
             >
               Submit
             </button>
           </form>
+          <div className="mt-4 flex ">
+            <a
+              href="https://www.google.com/maps/place/WOODROCK+INFOTECH+PRIVATE+LIMITED/data=!4m7!3m6!1s0x3a0277afa5003161:0x920971db542ca471!8m2!3d22.5733066!4d88.3548007!16s%2Fg%2F11byvsgbsv!19sChIJYTEApa93AjoRcaQsVNtxCZI?authuser=0&hl=en&rclk=1"
+              target="_blank"
+            >
+              <img
+                src="/maps/map to dalhousie office.png"
+                alt="map to dalhousie office"
+                // className="w-1/2"
+              />
+            </a>
+            <a
+              href="https://www.google.com/maps/place/WOODROCK+INFOTECH+PRIVATE+LIMITED+%28SALT+LAKE%29/data=!4m7!3m6!1s0x3a027537c442e883:0xa64a496ba6629536!8m2!3d22.5764811!4d88.4337894!16s%2Fg%2F11l1fp1hjs!19sChIJg-hCxDd1AjoRNpVipmtJSqY?authuser=0&hl=en&rclk=1"
+              target="_blank"
+            >
+              <img
+                src="/maps/map to salt lake office.png"
+                alt="map to salt lake office"
+                // className="w-1/2"
+              />
+            </a>
+          </div>
         </div>
 
-        <div className="w-full rounded-lg bg-sky-600 p-6 shadow-md md:w-1/2">
+        <div className="w-full rounded-lg bg-sky-500 p-6 shadow-md md:w-1/2">
           <h2 className="text-xl font-bold ">Contact Info</h2>
           <h3 className="mt-4 text-lg font-semibold ">Addresses</h3>
           <div className="mt-4 space-y-6">

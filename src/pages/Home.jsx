@@ -44,10 +44,9 @@ const Home = () => {
       <div id="testimonials">
         <SectionTitle
           pretitle="Testimonials"
-          title="Here's what our customers said"
+          title="Here's what Woodrock family looks like!"
         >
-          Testimonails is a great way to increase the brand trust and awareness.
-          Use this section to highlight your popular customers.
+          Glimpses at a glance
         </SectionTitle>
       </div>
       <Testimonials />
