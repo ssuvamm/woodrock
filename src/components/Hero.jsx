@@ -10,7 +10,6 @@ const Hero = () => {
     <>
       <Container className="flex flex-wrap md:flex-nowrap">
         <div className="flex w-full items-center justify-center md:w-1/2">
-          {/* <div className="absolute h-[187px] w-[200px] translate-x-[-205%] translate-y-[-63%] bg-[#1b1b3f]"></div> */}
           <div className="mb-8 max-w-2xl">
             <div className="  bg-[url('/Untitled.png')] pl-3 text-white md:bg-cover">
               <h1 className=" text-4xl font-bold leading-snug tracking-tight  md:text-4xl md:leading-tight lg:text-6xl lg:leading-tight">
