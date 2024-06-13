@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="mb-8 max-w-2xl">
             <div className="  bg-[url('/Untitled.png')] pl-3 text-white md:bg-cover">
               <h1 className=" text-4xl font-bold leading-snug tracking-tight  md:text-4xl md:leading-tight lg:text-6xl lg:leading-tight">
-                WOODROCK Group
+                WOODROCK GROUP
               </h1>
               <h2 className="py-5 text-xl leading-normal  md:text-xl lg:text-3xl">
                 Anticipating Your Needs Exceeding Your Expectations

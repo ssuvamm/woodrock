@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /build/  # Prevent indexing development files
+Disallow: /node_modules/  # Prevent indexing third-party modules

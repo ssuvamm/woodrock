@@ -97,13 +97,14 @@ const Contact = () => {
           <div className="mt-4 space-y-6">
             <div className="rounded-lg bg-sky-100 p-4 ">
               <h3 className="text-lg font-semibold">Corporate Office</h3>
-              <p>18 Rabindra Sarani, Poddar Court,</p>
-              <p>Gate no – 4, 8th Floor, Kolkata – 700001</p>
+
+              <p>8th floor -DN Block-12 , Sector V,</p>
+              <p>Bidhannagar, West Bengal 700091</p>
             </div>
             <div className="rounded-lg bg-sky-100 p-4 ">
               <h3 className="text-lg font-semibold">Branch Office - 1</h3>
-              <p>8th floor -DN Block-12 , Sector V,</p>
-              <p>Bidhannagar, West Bengal 700091</p>
+              <p>18 Rabindra Sarani, Poddar Court,</p>
+              <p>Gate no – 4, 8th Floor, Kolkata – 700001</p>
             </div>
             <div className="rounded-lg bg-sky-100 p-4 ">
               <h3 className="text-lg font-semibold">Branch Office - 2</h3>

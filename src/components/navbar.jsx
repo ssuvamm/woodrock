@@ -36,9 +36,7 @@ const Navbar = () => {
                         className="w-8"
                       />
                     </span>
-                    <span className="hidden md:flex">
-                      Woodrock Infotech Private Limited
-                    </span>
+                    <span className="hidden md:flex">WOODROCK GROUP</span>
                     <span className="flex md:hidden">Woodrock</span>
                   </span>
                 </Link>
