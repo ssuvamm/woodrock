@@ -144,22 +144,18 @@ const OpenPositions = () => {
                     </div>
                   )}
                   {jobDescriptions[position].Contact && (
-                    <a
-                      href="mailto:kathakali.rahman@woodrockgroup.in"
-                      target="_blank"
-                    >
+                    <a href="mailto:hr@woodrockgroup.in" target="_blank">
                       <p className="mt-2">
-                        <strong>Contact:</strong>{" "}
-                        {jobDescriptions[position].Contact}
+                        <strong>Contact:</strong> hr@woodrockgroup.in
                       </p>
                     </a>
                   )}
-                  {jobDescriptions[position].Salary && (
+                  {/* {jobDescriptions[position].Salary && (
                     <p className="mt-2">
                       <strong>Salary:</strong>{" "}
                       {jobDescriptions[position].Salary}
                     </p>
-                  )}
+                  )} */}
                   {jobDescriptions[position].WorkTiming && (
                     <p className="mt-2">
                       <strong>Work Timing:</strong>{" "}
