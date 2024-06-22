@@ -11,15 +11,11 @@ const Benefits = (props) => {
             props.imgPos === "right" ? "lg:order-1" : ""
           }`}
         >
-          <div>
+          <div className="overflow-hidden ">
             <img
               src={data.image}
-              width="521"
-              height="auto"
-              alt="Benefits"
-              className={"object-cover"}
-              placeholder="blur"
-              blurDataURL={data.image.src}
+              alt="Expertise"
+              className={"w-auto md:h-[500px] lg:h-[630px]"}
             />
           </div>
         </div>
@@ -31,7 +27,7 @@ const Benefits = (props) => {
         >
           <div>
             <div className="mt-4 flex w-full flex-col">
-              <h3 className="mt-3 max-w-2xl text-3xl font-bold leading-snug tracking-tight  lg:text-4xl lg:leading-tight ">
+              <h3 className="mt-3 flex max-w-2xl justify-center text-3xl font-bold leading-snug tracking-tight  lg:text-4xl lg:leading-tight ">
                 {data.title}
               </h3>
 

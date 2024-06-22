@@ -2,14 +2,12 @@ import Hero from "../components/Hero";
 import SectionTitle from "../components/sectionTitle";
 import Benefits from "../components/benefits";
 import { benefitOne } from "../components/data";
-import Video from "../components/video";
 import Testimonials from "../components/testimonials";
 import Faq from "../components/faq";
 import Cta from "../components/cta";
 import GrowthStories from "../components/growthStories";
 import LeadershipDetails from "../components/LeadershipDetails";
 import GrowthTimeline from "../components/growthTimeline";
-import Achievements from "../components/Achievements";
 import { motion as m } from "framer-motion";
 // import Sidebar from "../components/Sidebar";
 import { CgMouse } from "react-icons/cg";
@@ -25,13 +23,11 @@ const Home = () => {
       className="pt-40"
     >
       <Hero />
-      <div id="achievements">
-        <Achievements />
-      </div>
+
       <div id="growth">
-        <GrowthStories />
         <GrowthTimeline />
       </div>
+      <p>https://www.desteksolutions.com/#:~:text=100,%2B</p>
       <div id="expertise">
         <Benefits data={benefitOne} />
       </div>
@@ -102,13 +98,6 @@ const Sidebar = () => {
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
             Home
-          </p>
-
-          <p
-            className="w-full hover:cursor-pointer hover:text-sky-500"
-            onClick={() => onClickMenu("achievements")}
-          >
-            Achievements
           </p>
 
           <p

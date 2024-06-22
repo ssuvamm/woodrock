@@ -4,12 +4,9 @@ import "react-lazy-load-image-component/src/effects/opacity.css";
 
 const GrowthStories = () => {
   return (
-    <div className=" py-8">
+    <div className=" ">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-8 text-center text-3xl font-bold text-indigo-600">
-            Our Growth Story
-          </h2>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             <div>
               <h3 className="mb-3 text-2xl font-bold ">

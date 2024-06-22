@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Careers from "./pages/Careers";
+import News from "./pages/News";
 import Navbar from "./components/navbar";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "./components/footer";
@@ -17,6 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/careers" element={<Careers />}></Route>
+        <Route path="/news" element={<News />}></Route>
         <Route path="*" element={<Error />}></Route>
       </Routes>
       <Footer />

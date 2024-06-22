@@ -4,6 +4,9 @@ const GrowthTimeline = () => {
   return (
     <div className="">
       <div className="container mx-auto px-4">
+        <h2 className="mb-8 pt-8 text-center text-3xl font-bold text-indigo-600">
+          Our Growth Story
+        </h2>
         <div className="mx-auto max-w-4xl">
           <div className="relative">
             <div className="border-l-2 border-indigo-600">
