@@ -3,7 +3,7 @@ import axios from "axios";
 
 const fetchBlogPost = async () => {
   const spreadsheetId = "1yPJ5TFwuyNFol7U6XzBi6zpMKAGrweEMO_fbSb7I9u4";
-  const apiKey = "AIzaSyBq7DgphlKsQMgQWB7ALuhXCDA1TWIzXpU";
+  const apiKey = "**";
   const range = "Sheet1"; // Name of the sheet in your spreadsheet
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}!B2:C2?key=${apiKey}`;
 
