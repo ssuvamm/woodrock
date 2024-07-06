@@ -27,7 +27,7 @@ const Home = () => {
       <div id="growth">
         <GrowthTimeline />
       </div>
-      <p>https://www.desteksolutions.com/#:~:text=100,%2B</p>
+      {/* <p>https://www.desteksolutions.com/#:~:text=100,%2B</p> */}
       <div id="expertise">
         <Benefits data={benefitOne} />
       </div>
