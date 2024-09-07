@@ -5,7 +5,6 @@ import { benefitOne } from "../components/data";
 import Testimonials from "../components/testimonials";
 import Faq from "../components/faq";
 import Cta from "../components/cta";
-import GrowthStories from "../components/growthStories";
 import LeadershipDetails from "../components/LeadershipDetails";
 import GrowthTimeline from "../components/growthTimeline";
 import { motion as m } from "framer-motion";

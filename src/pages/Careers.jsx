@@ -77,11 +77,11 @@ const Careers = () => {
                     Expectations and Growth
                   </h3>
                   <p className="mb-4">
-                    At Woodrock, we expect our employees to embody a "will-do"
-                    attitude and embrace new challenges with enthusiasm. We
-                    foster a culture of continuous learning and professional
-                    development, providing opportunities for upskilling and
-                    career advancement within the organization.
+                    At Woodrock, we expect our employees to embody a
+                    &quote;will-do&quot; attitude and embrace new challenges
+                    with enthusiasm. We foster a culture of continuous learning
+                    and professional development, providing opportunities for
+                    upskilling and career advancement within the organization.
                   </p>
                 </div>
                 <div>

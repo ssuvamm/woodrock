@@ -27,7 +27,7 @@ const Navbar = () => {
               <div className="flex w-full flex-wrap items-center justify-between lg:w-auto">
                 <Link to="/" onClick={onClickLogo}>
                   <span className="flex items-center space-x-2 text-2xl font-medium text-gray-800">
-                    <span>
+                    <span className="pl-10">
                       <img
                         src="/Logo/woodrock.png"
                         alt="N"

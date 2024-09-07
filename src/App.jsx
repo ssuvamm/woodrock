@@ -8,6 +8,9 @@ import Navbar from "./components/navbar";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "./components/footer";
 import Error from "./pages/Error";
+import Terms from "./pages/Terms";
+import Privacy from "./pages/Privacy";
+import LegalDisclaimer from "./pages/Legal";
 
 function App() {
   return (
@@ -19,7 +22,10 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/careers" element={<Careers />}></Route>
         <Route path="/news" element={<News />}></Route>
-        <Route path="*" element={<Error />}></Route>
+        <Route path="/terms" element={<Terms />}></Route>
+        <Route path="/privacy" element={<Privacy />}></Route>
+        <Route path="/legal" element={<LegalDisclaimer />}></Route>
+        <Route path="/*" element={<Error />}></Route>
       </Routes>
       <Footer />
 

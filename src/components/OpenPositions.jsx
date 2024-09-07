@@ -174,9 +174,13 @@ const OpenPositions = () => {
                       {jobDescriptions[position].InterviewTimings}
                     </p>
                   )}
-                  <button className="mt-4 inline-block rounded bg-sky-700 px-4 py-2 font-bold text-white shadow transition duration-200 hover:bg-sky-600">
+                  <a
+                    target="_blank"
+                    href="https://app.hrone.cloud/career-portal?appId=gYJKcVh0xQZnAIUms-igVI14rXsXurmBjBa9HRxVdNme-81n1gS47UsU0iOjguLKnMyoLFL9CRtry2kd46drtI2Bk_olEjx-kRBlXmr1quWdftvCC_Ri0pX2vvPnUfpz&dc=woodrockinfotech&rqt=m8jH4bpBQbccEU8MZpSP5Q&cc=Bi-hrtIvl_-OOFM0lxy-HQ"
+                    className="mt-4 inline-block rounded bg-sky-700 px-4 py-2 font-bold text-white shadow transition duration-200 hover:bg-sky-600"
+                  >
                     Apply
-                  </button>
+                  </a>
                 </div>
               </li>
             ))}

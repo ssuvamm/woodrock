@@ -34,7 +34,7 @@ const About = () => {
                 At Woodrock, our mission is to be the trusted partner that
                 empowers businesses to thrive in the digital era. We are
                 dedicated to delivering innovative, reliable, and scalable
-                business process outsourcing solutions that enhance our clients'
+                business process outsourcing solutions that enhance our clients&apos;
                 efficiency and competitiveness.
               </p>
             </div>
@@ -73,7 +73,7 @@ const About = () => {
                 Our vision is to be the catalyst for your growth, enabling you
                 to achieve your goals and aspirations.
               </span>{" "}
-              Together, let's shape a future where success knows no bounds.
+              Together, let&apos;s shape a future where success knows no bounds.
             </p>
           </div>
         </div>
