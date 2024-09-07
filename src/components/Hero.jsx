@@ -39,7 +39,7 @@ const Hero = () => {
           <div className="">
             <LazyLoadImage
               src="/img/hero.jpg"
-              className="h-full w-full object-cover md:h-auto md:max-h-[300px] md:w-auto md:max-w-[300px] md:rounded-md lg:max-h-[617px] lg:max-w-[616px]"
+              className="h-full w-full object-cover md:h-auto md:max-h-[200px] md:w-auto md:max-w-[2S00px] md:rounded-md lg:max-h-[380px] lg:max-w-[550px]"
               alt="Hero Illustration"
               effect="opacity"
             />
