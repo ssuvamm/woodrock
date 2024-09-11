@@ -2,7 +2,6 @@ import Container from "./container";
 import { Link } from "react-router-dom";
 import CoreValues from "./CoreValues";
 import Carousel from "./Carousel";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/opacity.css";
 
 const Hero = () => {
@@ -16,7 +15,7 @@ const Hero = () => {
                 WOODROCK GROUP
               </h1>
               <h2 className="py-5 text-xl leading-normal  md:text-xl lg:text-3xl">
-                Anticipating Your Needs Exceeding Your Expectations
+                Anticipating Your Needs <br /> Exceeding Your Expectations
               </h2>
             </div>
             <p className="py-5 text-xl leading-normal  md:text-xl lg:text-2xl">
@@ -36,12 +35,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex w-full items-center justify-center md:w-1/2">
-          <div className="">
-            <LazyLoadImage
+          <div className="heroImage">
+            <img
               src="/img/hero.jpg"
-              className="h-full w-full object-cover md:h-auto md:max-h-[200px] md:w-auto md:max-w-[2S00px] md:rounded-md lg:max-h-[380px] lg:max-w-[550px]"
+              className="h-full w-full object-cover md:h-auto md:max-w-[250px] lg:max-w-[750px]"
               alt="Hero Illustration"
-              effect="opacity"
             />
           </div>
         </div>

@@ -19,7 +19,7 @@ const Home = () => {
       exit={{ opacity: 0, y: -100 }}
       key="home"
       id="home"
-      className="pt-40"
+      className="pt-36"
     >
       <Hero />
 
